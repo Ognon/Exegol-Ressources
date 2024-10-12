@@ -1,4 +1,4 @@
-git clone https://github.com/Frozenka/Exegol-Ressources.git
+git clone https://github.com/Ognon/Exegol-Ressources.git
 cd Exegol-Ressources
 
 cat tmux.conf >> ~/.tmux.conf
@@ -23,7 +23,7 @@ pip3 install wsgidav
 pip install cheroot
 pip3 install pyftpdlib
 
-apt-get install snmp-mibs-downloader
+apt install snmp-mibs-downloader
 apt install ripgrep
 
 echo "PermitRootLogin prohibit-password" >> /etc/ssh/sshd_config
@@ -44,7 +44,6 @@ cd /opt/resources/linux https://raw.githubusercontent.com/Frozenka/linfast/main/
 sed -i 's/"#"/"%{$fg[green]%}➜ %{$reset_color%}"/g' /opt/.exegol_shells_rc
 sed -i 's/"%m"/"${HOSTNAME#exegol-}"/g' /opt/.exegol_shells_rc
 sed -i 's/(%Z)//g' ~/.zshrc
-
 
 # On supprime l'install.sh
 rm /workspace/install.sh
