@@ -1,6 +1,6 @@
 # Cloner le dépôt Exegol-Ressources et entrer dans le dossier
 apt update
-git clone https://github.com/Frozenka/Exegol-Ressources.git
+git clone https://github.com/Ognon/Exegol-Ressources.git
 cd Exegol-Ressources
 
 # Ajouter des configurations à tmux.conf et zsh_history
@@ -55,11 +55,11 @@ mv Ghostpack-CompiledBinaries /opt/resources/windows
 # Télécharger des scripts spécifiques dans les bons répertoires
 cd /opt/resources/windows
 wget https://raw.githubusercontent.com/fashionproof/EnableAllTokenPrivs/master/EnableAllTokenPrivs.ps1
-wget https://raw.githubusercontent.com/Frozenka/linfast/main/winfast
-wget https://raw.githubusercontent.com/Frozenka/Exegol-Ressources/refs/heads/main/getdns.sh -O /opt/tools/dnsvalidator/getdns.sh
+wget https://raw.githubusercontent.com/Ognon/linfast/main/winfast
+wget https://raw.githubusercontent.com/Ognon/Exegol-Ressources/refs/heads/main/getdns.sh -O /opt/tools/dnsvalidator/getdns.sh
 
 cd /opt/resources/linux
-wget https://raw.githubusercontent.com/Frozenka/linfast/main/linfast
+wget https://raw.githubusercontent.com/Ognon/linfast/main/linfast
 
 
 cd /opt/tools/dnsvalidator
